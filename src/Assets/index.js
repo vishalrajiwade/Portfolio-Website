@@ -18,6 +18,10 @@ import node from "./node-logo.png"
 import java from "./java-logo.png"
 import spring from "./spring-logo.png"
 import db from "./logo-db.png"
+import rode from "./Rode Clone.png"
+import shade from "./shadeup.png"
+import budget from "./budgetplanner.png"
+import password from "./passGenerator.png"
 
 export {
     logo,
@@ -39,6 +43,9 @@ export {
     node,
     java,
     spring,
-    db
-
+    db,
+    rode,
+    shade,
+    password,
+    budget
 }
