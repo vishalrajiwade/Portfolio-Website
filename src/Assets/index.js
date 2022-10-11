@@ -10,6 +10,14 @@ import menu from "./menu.svg"
 import heroBlur1 from "./Hero-img-bg-blur1.png"
 import heroBlur2 from "./Hero-img-bg-blur2.png"
 import heroBlur3 from "./hero-blur-3.png"
+import html from "./html5-logo.png"
+import css from "./css-logo.png"
+import js from "./javascript-39395 1.png"
+import react from "./react-logo.png"
+import node from "./node-logo.png"
+import java from "./java-logo.png"
+import spring from "./spring-logo.png"
+import db from "./logo-db.png"
 
 export {
     logo,
@@ -23,6 +31,14 @@ export {
     menu,
     heroBlur1,
     heroBlur2,
-    heroBlur3
+    heroBlur3,
+    html,
+    css,
+    js,
+    react,
+    node,
+    java,
+    spring,
+    db
 
 }
