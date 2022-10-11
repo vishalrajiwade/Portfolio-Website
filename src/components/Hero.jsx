@@ -4,13 +4,13 @@ import { heroImg } from "../Assets/index";
 const Hero = () => {
   return (
     <div className="flex mt-16 justify-between items-center flex-col-reverse md:flex-row">
-      <div className="absolute top-[100px] right-[350px] bg-green-gradient h-[50px] w-[50px] rounded-full"></div>
+      <div className="absolute top-[100px] right-[350px] 3xl:right-[500px] bg-green-gradient h-[50px] w-[50px] rounded-full"></div>
 
       <div className=" flex flex-col justify-between items-center mt-10  md:items-start">
-        <h1 className="text-5xl font-semibold text-white mb-4 xl:text-6xl">
+        <h1 className="text-5xl font-semibold text-white mb-4 xl:text-6xl 3xl:text-7xl">
           Hi, I'm
         </h1>
-        <h1 className="text-5xl font-semibold text-gradient xl:text-6xl">
+        <h1 className="text-5xl font-semibold text-gradient xl:text-6xl 3xl:text-7xl">
           Vishal Rajiwade
         </h1>
         <p className="text-white opacity-70 text-[12px] font-light w-2/3 mt-6 mb-10 xl:text-[14px]">
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="z-10 ">
-        <img src={heroImg} alt="" className="md:w-[25rem]" />
+        <img src={heroImg} alt="" className="md:w-[25rem] 3xl:w-[35rem]" />
       </div>
     </div>
   );
