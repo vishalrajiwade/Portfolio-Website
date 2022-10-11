@@ -1,5 +1,5 @@
 import logo from "./Vishal_Logo.png";
-import heroImg from "./Hero-Image.png"
+import heroImg from "./Hero-img.png"
 import conIllustration from "./contact-illustration.png"
 import fb from "./Fb_icon.png"
 import insta from "./Insta_Icon.png"
@@ -7,6 +7,9 @@ import linkedin from "./Linkedin_icon.png"
 import twitter from "./Twitter_Icon.png"
 import close from "./close.svg"
 import menu from "./menu.svg"
+import heroBlur1 from "./Hero-img-bg-blur1.png"
+import heroBlur2 from "./Hero-img-bg-blur2.png"
+import heroBlur3 from "./hero-blur-3.png"
 
 export {
     logo,
@@ -17,5 +20,9 @@ export {
     linkedin,
     twitter,
     close,
-    menu
+    menu,
+    heroBlur1,
+    heroBlur2,
+    heroBlur3
+
 }

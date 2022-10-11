@@ -22,7 +22,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
         <div className="bg-green-gradient text-black px-6 py-1 rounded-lg">
-          <a href="#">Resume</a>
+          <a href="#resume">Resume</a>
         </div>
       </ul>
 
@@ -53,7 +53,7 @@ const Navbar = () => {
               <a href="contact">Contact</a>
             </li>
             <div className="bg-green-gradient text-black px-6 py-1 rounded-lg">
-              <a href="#">Resume</a>
+              <a href="#resume">Resume</a>
             </div>
           </ul>
         </div>
