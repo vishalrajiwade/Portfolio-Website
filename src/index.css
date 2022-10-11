@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
@@ -7,6 +9,10 @@
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   scroll-behavior: smooth;
