@@ -6,8 +6,8 @@ const Contact = () => {
   return (
     <div className="mt-24 lg:mt-48 ">
       <h2 className="text-white text-3xl font-medium mb-4 mx-6 md:mx-8 lg:mx-12 xl:mx-20 2xl:mx-24">Let's Connect!</h2>
-      <div className="bg-black-gradient-2 py-12 text-white flex flex-col-reverse items-center md:flex-row">
-        <div className="w-[80%] md:w-[50%]  md:mx-8 lg:mx-12 xl:mx-20 2xl:mx-24">
+      <div className="bg-black-gradient-2 py-12 text-white flex flex-col-reverse items-center justify-between md:flex-row px-6 md:px-8 lg:px-12 xl:px-20 2xl:px-24">
+        <div className="w-[80%] md:w-[50%] lg:w-[40%]">
           <form action="" className="flex flex-col gap-6">
             <div className="flex flex-col">
               <label htmlFor="name">Name</label>
@@ -40,7 +40,7 @@ const Contact = () => {
           </form>
         </div>
         <div>
-          <img src={conIllustration} alt="Contact" className="h-[300px] md:h-[360px] lg:h-[420px]" />
+          <img src={conIllustration} alt="Contact" className="h-[300px] md:h-[360px] lg:h-[450px]" />
         </div>
       </div>
     </div>
