@@ -4,7 +4,7 @@ import { logo } from "../Assets/index"
 
 const Footer = () => {
   return (
-    <div className="mt-8 py-6 lg:mt-48 mx-6 md:mx-8 lg:mx-12 xl:mx-20 2xl:mx-24">
+    <div className="mt-8 py-6 mx-6 md:mx-8 lg:mx-12 xl:mx-20 2xl:mx-24">
       <div className="w-full h-[1px] bg-[#3F3E45] mb-6"></div>
       <div className="flex justify-between items-start">
         <div className="flex flex-col gap-3">
@@ -35,7 +35,7 @@ const Footer = () => {
       <div className="w-full h-[1px] bg-[#3F3E45] mt-6 mb-6"></div>
       <div className="flex justify-between items-center">
         <img src={logo} alt="Logo" />
-        <div className="flex justify-between items-center gap-6 opacity-70">
+        <div className="flex justify-between items-center gap-6 opacity-70 md:hidden">
           <i class="fa-brands fa-linkedin cursor-pointer text-white"></i>
           <i className="fa-brands fa-square-facebook text-white hover:text-blue-500 cursor-pointer"></i>
           <i className="fa-brands fa-instagram text-white hover:text-red-400-500 cursor-pointer"></i>
