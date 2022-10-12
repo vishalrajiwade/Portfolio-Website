@@ -5,7 +5,7 @@ import { close, logo, menu } from "../Assets";
 const Navbar = () => {
   const [toggle, settoggle] = useState(false);
   return (
-    <nav className=" flex justify-between items-start py-6">
+    <nav className=" flex justify-between items-start py-6 mx-6">
       <img src={logo} alt="Vishal Rajiwade" className="" />
 
       <ul className="text-white  justify-center items-center hidden md:flex md:gap-6 lg:gap-10 xl:gap-14 2xl:gap-16">

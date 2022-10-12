@@ -4,7 +4,7 @@ import { rode, shade, password, budget } from "../Assets/index";
 
 const Projects = () => {
   return (
-    <div className="mt-24 lg:mt-48">
+    <div className="mt-24 lg:mt-48 mx-6">
       <h2 className="text-white text-3xl font-medium mb-12 ">My Projects</h2>
       <div className="flex flex-col justify-between gap-16">
         {/* Project 1 */}

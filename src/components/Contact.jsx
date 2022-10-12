@@ -4,8 +4,8 @@ import { conIllustration } from "../Assets/index";
 
 const Contact = () => {
   return (
-    <div className="mt-24 lg:mt-48">
-      <h2 className="text-white text-3xl font-medium mb-4">Let's Connect!</h2>
+    <div className="mt-24 lg:mt-48 ">
+      <h2 className="text-white text-3xl font-medium mb-4 mx-6">Let's Connect!</h2>
       <div className="bg-black-gradient-2 py-12 text-white flex flex-col-reverse items-center">
         <div className="w-[80%]">
           <form action="" className="flex flex-col gap-6">
