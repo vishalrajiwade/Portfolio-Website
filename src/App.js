@@ -3,7 +3,7 @@ import {Navbar, Hero, Skills, Projects, Contact, Footer} from "./components/inde
 function App() {
   return (
     <div className="bg-primary w-full overflow-hidden">
-      <div className="px-6 container mx-auto">
+      <div className=" ">
         <div>
           <Navbar />
         </div>
