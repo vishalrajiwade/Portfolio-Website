@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="hidden md:flex justify-between items-center gap-6 opacity-70">
-          <i class="fa-brands fa-linkedin cursor-pointer text-white"></i>
+          <i class="fa-brands fa-linkedin cursor-pointer "></i>
           <i className="fa-brands fa-square-facebook text-white hover:text-blue-500 cursor-pointer"></i>
           <i className="fa-brands fa-instagram text-white hover:text-red-400-500 cursor-pointer"></i>
           <i className="fa-brands fa-twitter text-white hover:text-blue-300 cursor-pointer"></i>

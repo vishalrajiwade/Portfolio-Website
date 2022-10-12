@@ -4,7 +4,9 @@ import { conIllustration, send } from "../Assets/index";
 
 const Contact = () => {
   return (
-    <div className="mt-24 lg:mt-48 ">
+    <div className="relative mt-24 lg:mt-48 ">
+      <div className=" absolute top-[-130px] right-0 blue__gradient h-[300px] w-[300px] "></div>
+      <div className=" absolute top-[850px] md:top-[600px] left-[-100px] blue__gradient h-[300px] w-[300px] "></div>
       <h2 className="text-white text-3xl font-medium mb-4 mx-6 md:mx-8 lg:mx-12 xl:mx-20 2xl:mx-24">Let's Connect!</h2>
       <div className="bg-black-gradient-2 py-12 text-white flex flex-col-reverse items-center justify-between md:flex-row px-6 md:px-8 lg:px-12 xl:px-20 2xl:px-24">
         <div className="w-[80%] md:w-[50%] lg:w-[40%]">

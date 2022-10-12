@@ -4,7 +4,10 @@ import { rode, shade, password, budget, rightArrow } from "../Assets/index";
 
 const Projects = () => {
   return (
-    <div className="mt-24 lg:mt-48 mx-6 md:mx-8 lg:mx-12 xl:mx-20 2xl:mx-24">
+    <div className="relative mt-24 lg:mt-48 mx-6 md:mx-8 lg:mx-12 xl:mx-20 2xl:mx-24">
+      <div className=" absolute top-[300px] left-[-80px] blue__gradient h-[300px] w-[300px] "></div>
+      <div className=" absolute top-0 right-[-250px] pink__gradient h-[300px] w-[300px] "></div>
+      <div className=" absolute top-[1200px] right-[-250px] blue__gradient h-[300px] w-[300px] "></div>
       <h2 className="text-white text-3xl font-medium mb-12 ">My Projects</h2>
       <div className="flex flex-col justify-between gap-16">
         {/* Project 1 */}
