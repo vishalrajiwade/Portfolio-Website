@@ -3,8 +3,8 @@ import { heroImg } from "../Assets/index";
 
 const Hero = () => {
   return (
-    <div className="flex mt-16 lg:mt-24 xl:mt-32 3xl:mt-30 mx-6 md:mx-8 lg:mx-12 xl:mx-20 2xl:mx-24 justify-between items-center flex-col-reverse md:flex-row">
-      <div className="absolute top-[100px] right-[350px] 3xl:right-[500px] bg-green-gradient h-[50px] w-[50px] rounded-full"></div>
+    <div className="flex mt-20 lg:mt-28 xl:mt-36 3xl:mt-36 mx-6 md:mx-8 lg:mx-12 xl:mx-20 2xl:mx-24 justify-between items-center flex-col-reverse md:flex-row">
+      <div className="absolute top-[100px] right-[420px] 3xl:right-[500px] bg-green-gradient h-[50px] w-[50px] rounded-full"></div>
       <div className="absolute top-[600px] md:top-[460px] lg:top-[560px] 3xl:top-[750px] right-[120px] 3xl:right-[250px] bg-green-gradient h-[20px] w-[20px] rounded-full"></div>
 
       <div className=" flex flex-col justify-between items-center mt-10  md:items-start">

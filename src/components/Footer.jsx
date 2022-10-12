@@ -1,6 +1,6 @@
 import React from "react";
 
-import { logo } from "../Assets/index"
+import { logo, address, phone, mail } from "../Assets/index";
 
 const Footer = () => {
   return (
@@ -9,19 +9,28 @@ const Footer = () => {
       <div className="flex justify-between items-start">
         <div className="flex flex-col gap-3">
           <div className="flex justify-start items-center gap-3">
-            <p className="text-white text-[14px]">Address : </p>
+            <p className="text-white text-[14px] flex justify-center items-center">
+              <img src={address} alt="" className="h-[14px] mr-3"/>
+              Address :  
+            </p>
             <p className="text-white opacity-70 text-[12px]">
               Hinjewadi, Tal- Mulshi, Dist- Pune, Maharashtra 411 057
             </p>
           </div>
           <div className="flex justify-start items-center gap-3">
-            <p className="text-white text-[14px]">Email : </p>
+            <p className="text-white text-[14px] flex justify-center items-center">
+              <img src={mail} alt="" className="h-[10px] mr-3"/>
+              Email : 
+            </p>
             <p className="text-white opacity-70 text-[12px]">
               rajiwadevishal23@gmail.com
             </p>
           </div>
           <div className="flex justify-start items-center gap-3">
-            <p className="text-white text-[14px]">Phone : </p>
+            <p className="text-white text-[14px] flex justify-center items-center">
+              <img src={phone} alt="" className="h-[12px] mr-3"/>  
+              Phone : 
+            </p>
             <p className="text-white opacity-70 text-[12px]">+91 7984423076</p>
           </div>
         </div>

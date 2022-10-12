@@ -22,6 +22,11 @@ import rode from "./Rode Clone.png"
 import shade from "./shadeup.png"
 import budget from "./budgetplanner.png"
 import password from "./passGenerator.png"
+import send from "./Send-Icon.svg"
+import rightArrow from "./right-arrow.svg"
+import address from "./address-icon.svg"
+import phone from "./phone.svg"
+import mail from "./mail-icon.svg"
 
 export {
     logo,
@@ -47,5 +52,10 @@ export {
     rode,
     shade,
     password,
-    budget
+    budget,
+    send,
+    rightArrow,
+    address,
+    phone,
+    mail
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { conIllustration } from "../Assets/index";
+import { conIllustration, send } from "../Assets/index";
 
 const Contact = () => {
   return (
@@ -32,10 +32,11 @@ const Contact = () => {
             </div>
 
             <a
-              className="self-start bg-green-gradient text-black px-8 py-2 md:px-10 md:py-3 xl:px-10 xl:py-2 rounded-md text-[14px] md:text-[16px]"
+              className="self-start flex justify-center items-center bg-green-gradient text-black px-8 py-2 md:px-10 md:py-3 xl:px-10 xl:py-2 rounded-md text-[14px] md:text-[16px]"
               href="#"
             >
-              Send
+              Send 
+              <img src={send} alt="" className="h-[14px] ml-2" />
             </a>
           </form>
         </div>

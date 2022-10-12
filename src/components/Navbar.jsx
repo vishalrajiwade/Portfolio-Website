@@ -22,7 +22,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
         <div className="bg-green-gradient text-black px-6 py-1 rounded-lg">
-          <a href="#resume">Resume</a>
+          <a target={"_blank"} href="https://bit.ly/3g20JkQ">Resume</a>
         </div>
       </ul>
 
