@@ -3,9 +3,9 @@ import { html, css, js, react, node, java, spring, db } from "../Assets/index";
 
 const Skills = () => {
   return (
-    <div className="mt-24 lg:mt-48 mx-6 flex flex-col justify-between items-start">
+    <div className="mt-24 lg:mt-48 mx-6 md:mx-8 lg:mx-12 xl:mx-20 2xl:mx-24 flex flex-col justify-between items-start">
       <h2 className="text-white text-3xl font-medium ">My Skills</h2>
-      <div className="mt-10 grid  grid-cols-2 grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 w-full gap-6 place-items-center">
+      <div className="mt-10 grid  grid-cols-2 grid-rows-4 md:grid-cols-3 lg:grid-cols-4 lg:grid-rows-2 w-full gap-6 justify-center">
         <div className="bg-box-gradient xl:w-[290px] flex gap-8 justify-start items-center px-6 py-2 rounded-md w-[220px]">
           <div className="logo-bg flex justify-center items-center">
             <img src={html} alt="HTML" className="h-[20px]" />

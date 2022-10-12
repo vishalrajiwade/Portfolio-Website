@@ -5,7 +5,7 @@ import { conIllustration } from "../Assets/index";
 const Contact = () => {
   return (
     <div className="mt-24 lg:mt-48 ">
-      <h2 className="text-white text-3xl font-medium mb-4 mx-6">Let's Connect!</h2>
+      <h2 className="text-white text-3xl font-medium mb-4 mx-6 md:mx-8 lg:mx-12 xl:mx-20 2xl:mx-24">Let's Connect!</h2>
       <div className="bg-black-gradient-2 py-12 text-white flex flex-col-reverse items-center">
         <div className="w-[80%]">
           <form action="" className="flex flex-col gap-6">
@@ -24,7 +24,7 @@ const Contact = () => {
               <textarea
                 className="border border-[#33CF43] bg-transparent rounded-md mt-2 px-3 focus:outline-none"
                 name="message"
-                for="message"
+                htmlFor="message"
                 id=""
                 cols="30"
                 rows="10"
